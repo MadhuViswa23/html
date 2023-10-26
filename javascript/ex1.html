@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./ex1.js"></script>
+</head>
+<body>
+  
+    
+
+
+
+
+
+
+
+ 
+<script>
+/*
+task3
+    function name( a , b )  
+    {
+  return   a + b;
+
+}
+console.log(name(10 , 200));
+
+task-4
+function name( a , b )  
+    {
+  return   (a+b)/2;
+
+}
+console.log(name(4 , 2));
+
+task5
+function greet(name) {
+            return "Hi " + name;
+        }
+        
+        console.log(greet("Aravindh Kumar")); 
+       
+        function minutetosecond(a){
+        return (a*60);
+    } 
+    console.log(minutetosecond(5));
+
+function ex1
+  function findLargest(num1, num2, num3){
+    if (num1 > num2 && num1 > num3) {
+        console.log("numb1 is largest");
+    }
+   else if (num2 > num3) {
+        console.log("num2 is largest");
+    }else {
+        console.log("num3 is the largest");
+    }
+  }
+  findLargest(20, 10, 5);
+
+   
+  function findTraingleType(side1, side2, side3){
+if (side1=== side2 && side2==side3){
+    console.log("Equilateral triangle");
+}
+else if ( side1 == side2 || side2 == side3 || side1 == side3) {
+    console.log("Isosceles triangle");
+}
+else {
+    console.log("Scalene triangle");
+}
+  }
+  findTraingleType(5, 5, 5);
+  findTraingleType(4, 4, 5);
+  findTraingleType(4, 3, 5);*/
+
+  const currentAge= 24;
+  const maxAge=95;
+  const PerDay = 3;
+ const yearsRemaining = maxAge - currentAge;
+ const totalAmount = PerDay * 365 * yearsRemaining;
+ console.log("You will need " + totalAmount + " to last you until the ripe old age of " + maxAge);
+ function ex task3
+ function checkInRange(num, start, end) {
+    if (num >= start && num <= end) {
+        console.log("Between the range");
+    } else {
+        console.log("Outside the range");
+    }
+}
+
+console.log("Example 1:");
+checkInRange(15, 11, 30);  
+
+
+console.log("Example 2:");
+checkInRange(20, 34, 51);  
+task4 
+
+function evalNumbers(num1, num2, op) {
+
+if(op == "add"){
+  console.log( num1+num2);
+}
+else if(op == "subtract"){
+  console.log(num1-num2);
+}
+else if(op == "multiply"){
+  console.log(num1*num2);
+}
+else if(op == "divide"){
+  console.log(num1/num2);
+}
+else if(op == "modulus"){
+  console.log(num1%num2);
+}
+else{
+   console.log( "this is an invalid operation");  
+}
+}
+
+evalNumbers(5,10,"add") 
+evalNumbers(40,8,"subtract") 
+evalNumbers(12,4,"multiply") 
+evalNumbers(14,7,"divide") 
+evalNumbers(22,3,"modulus")
+
+task5
+
+function checkLeapYear(year) {
+
+if((year%4 == 0)&&(year%100 != 0)){
+  console.log("this is a leap year");
+}
+else if(year%400==0)
+    {
+        console.log("this is leap year");
+    }
+else{
+  console.log("this year  is not a leap year");
+  }
+}
+
+checkLeapYear(2000) 
+checkLeapYear(2024) 
+checkLeapYear(1999)
+checkLeapYear(2011)
+
+task6
+
+function findGrade(marks) {
+    if (marks >= 90 && marks <= 100) {
+        console.log("S grade");
+    } else if (marks >= 80 && marks < 90) {
+        console.log("A grade");
+    } else if (marks >= 70 && marks < 80) {
+        console.log("B grade");
+    } else if (marks >= 60 && marks < 70) {
+        console.log("C grade");
+    } else if (marks >= 50 && marks < 60) {
+        console.log("D grade");
+    } else if (marks >= 40 && marks < 50) {
+        console.log("E grade");
+    } else if (marks >= 0 && marks < 40) {
+        console.log("Student has failed");
+    } else {
+        console.log("Invalid marks");
+    }
+}
+
+
+findGrade(95);   
+findGrade(85); 
+findGrade(75);   
+findGrade(65);   
+findGrade(55);   
+findGrade(25);
+findGrade(-5);   
+ task7
+ function findGrade(marks) {
+    if (marks >= 90 && marks <= 100) {
+        console.log("S grade");
+    } else if (marks >= 80 && marks < 90) {
+        console.log("A grade");
+    } else if (marks >= 70 && marks < 80) {
+        console.log("B grade");
+    } else if (marks >= 60 && marks < 70) {
+        console.log("C grade");
+    } else if (marks >= 50 && marks < 60) {
+        console.log("D grade");
+    } else if (marks >= 40 && marks < 50) {
+        console.log("E grade");
+    } else if (marks >= 0 && marks < 40) {
+        console.log("Student has failed");
+    } else {
+        console.log("Invalid marks");
+    }
+}
+
+
+findGrade(95);   
+findGrade(85); 
+findGrade(75);   
+findGrade(65);   
+findGrade(55);   
+findGrade(25);
+findGrade(-5);   
+task 7
+function findDaysInMonth(month, year) 
+{
+    if (month < 1 || month > 12) {
+        console.log("Invalid month");
+    } else if (month === 2) {
+        if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+            console.log("The Month has 29 days.");
+        } else {
+            console.log("The Month has 28 days.");
+        }
+    } else if (month === 4 || month === 6 || month === 9 || month === 11) {
+        console.log("The Month has 30 days.");
+    } else {
+        console.log("The Month has 31 days.");
+    }
+}
+findDaysInMonth(2, 2012); 
+
+</script>
+</body>
+</html>

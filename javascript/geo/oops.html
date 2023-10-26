@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Employee(firstName, lastName)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
+        Employee.prototype.fullName= "kgisl";
+
+       
+        var employee1= new Employee["Madhu", "Viswa"];
+        var employee2= new Employee["preethi", "Pradeep"];
+        var employee3= new Employee["liya", "kavin"];
+        document.writeln(employee1.fullName() + "<br>");
+        document.writeln(employee2.fullName()+ "<br>");
+        document.writeln(employee3.fullName()+ "<br>");
+    </script>
+    
+</body>
+</html>

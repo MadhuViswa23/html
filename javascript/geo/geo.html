@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <body>
+        <h1>User Name Validation</h1>
+        <form onsubmit="return validateUserName()">
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit">Submit</button>
+            <script>
+                function validateUserName() {
+                    var userNameInput = document.getElementById("username");
+                    var userName = userNameInput.value;
+                    var regex = /^[a-zA-Z0-9_-]{3,16}$/;
+                    
+                    if (!regex.test(userName)) {
+                        alert("User name is invalid. It must be between 3 and 16 characters and can only contain letters, numbers, underscores, and hyphens.");
+                        return false;
+                    }
+                  
+                    
+                    return true;
+                }
+            </script>
+        </form>
+ 
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+body{
+    width:1200px;
+    margin:40px;
+    text-align: justify;
+}
+.img img{
+    width:400px;
+    height:200px;
+}
+
+p{
+    column-width: 360px;
+    column-gap: 3;
+}
+h1{
+    color:blue;
+}
+h2{
+    color: red;
+}

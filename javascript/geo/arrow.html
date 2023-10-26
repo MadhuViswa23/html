@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>Registration Form</title>
+<script type = "text/javascript">
+    function calc()
+    {
+        var bp,DA,HRA,GP,PF,Tax,Deduction,NetPay,name,id,desg;
+        name = document.form1.firstname.value;
+        id = document.form1.userid.value;
+        desg = document.form1.designation.value;
+        bp = parseInt(document.form1.bp.value);
+
+        DA = bp * 0.5;
+        HRA = bp * 0.5;
+        GP = bp + DA + HRA;
+        PF = GP * 0.02;
+        Tax = GP * 0.01;
+        Deduction = Tax + PF;
+        NetPay = GP - Deduction;
+
+        document.form1.da.value = DA;
+        document.form1.hra.value = HRA;
+        document.form1.gp.value = GP;
+        document.form1.pf.value = PF;
+        document.form1.tax.value = Tax;
+        document.form1.deduction.value = Deduction;
+        document.form1.netpay.value = NetPay
+    }
+</script>
+</head>
+<body >
+    <form name = "form1">
+        <table border = "1">
+            <tr>
+                <td>Name</td>
+                <td><input type = "text" name = "firstname" /></td>
+            </tr>
+            <tr>
+                <td>User ID</td>
+                <td><input type = "text" name = "userid" /></td>
+            </tr>
+            <tr>
+                <td>Designation</td>
+                <td><input type = "text" name = "designation" /></td>
+            </tr>
+            <tr>
+                <td>Basic Pay</td>
+                <td><input type = "text" name = "bp"></td>
+            </tr>
+            <tr>
+                <td colspan = "2" align = "center">
+                <input type = "button" name = "calculate" value = "Click Here To Calculate"onclick ="calc()"></td>
+
+            </tr>
+            <tr>
+                <td>Dearness Allowance </td>
+                <td><input type = "text" name = "da"/></td>
+            </tr>
+            <tr>
+                <td>House Rent Allowance </td>
+                <td><input type = "text" name = "hra"></td>
+            </tr>
+            <tr>
+                <td>GP</td>
+                <td><input type = "text" name = "gp"></td>
+            </tr>
+            <tr>
+                <td>Provident Fund</td>
+                <td><input type = "text" name = "pf" /></td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td><input type = "text" name = "tax" /></td>
+            </tr>
+            <tr>
+                <td>Deduction</td>
+                <td><input type = "text" name = "deduction" /></td>
+            </tr>
+            <tr>
+                <td>NetPay</td>
+                <td><input type = "text" name = "netpay" /></td>
+            </tr>           
+        </table>
+    </form>
+</body>
+</html> <!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Amazon Clone</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="product1.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">$50.00</p>
+                    <button class="btn btn-primary" onclick="addToCart('Product 1', 50)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="product2.jpg" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">$75.00</p>
+                    <button class="btn btn-primary" onclick="addToCart('Product 2', 75)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add more product cards here -->
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2>Shopping Cart</h2>
+    <ul id="cart" class="list-group">
+        <!-- Cart items will be displayed here -->
+    </ul>
+    <p>Total: $<span id="total">0.00</span></p>
+</div>
+
+<script>
+    const cart = [];
+    let total = 0;
+
+    function addToCart(productName, price) {
+        cart.push({ name: productName, price: price });
+        total += price;
+        updateCart();
+    }
+
+    function updateCart() {
+        const cartList = document.getElementById("cart");
+        cartList.innerHTML = "";
+        cart.forEach(item => {
+            const listItem = document.createElement("li");
+            listItem.className = "list-group-item";
+            listItem.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+            cartList.appendChild(listItem);
+        });
+
+        const totalSpan = document.getElementById("total");
+        totalSpan.textContent = total.toFixed(2);
+    }
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
+
+This example creates a simple product listing page with Bootstrap cards for each product. Users can click the "Add to Cart" button to add products to their cart, and the cart's contents and total price are updated dynamically. You can expand this foundation to include more features and styling as needed for your Amazon clone.
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+ <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Merge Deep Objects</title>
+  </head>
+  <body>
+     <script>
+    const flattenArray = (arrays) => {
+  const flatArray = [];
+  for (const array of arrays) {
+    flatArray.push(...array);
+  }
+  return [flatArray];
+};
+
+const nestedArrays = [[10, 20, 30], [40, 50], [60, 70, 80], [90, 100]];
+const flatResult = flattenArray(nestedArrays);
+console.log(flatResult); 
+
+
+  </script>
+      <script>
+    var person = {
+    name: "Madhu",
+    age: 21,
+    course: {
+        specification : "IT"
+    },
+};
+
+var person1 = {
+    course: {
+      specification : "AERO"
+    }
+};
+
+
+person.course.specification = person1.course.specification;
+
+console.log(person); 
+
+
+      </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  </head>
+  <body>
+      <script>
+    const addition = (num1, num2) => {
+    return num1 + num2;
+  };
+
+  const subtraction = (num1, num2) => {
+    return num1 - num2;
+  };
+
+  const multiplication = (num1, num2) => {
+    return num1 * num2;
+  };
+
+  const division = (num1, num2) => {
+  
+      return num1 / num2;
+
+  };
+
+
+  const sum = addition(3, 3); 
+  const sub = subtraction(14, 7); 
+  const product = multiplication(12, 2); 
+  const quotient = division(88, 4); 
+
+
+  console.log("Sum:", sum);
+  console.log("Difference:", sub);
+  console.log("Product:",product );
+  console.log("Quotient:", quotient);
+
+
+
+      </script>
+  </body>
+  </html>--> 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="user()">Click here</button>
+   <h1 id="head">Web Design</h1>
+   <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam explicabo ab.</p>
+   <h1>Student data</h1>
+    <p>Enter your detail </p>
+    <input type="text" id="name">
+    <button onclick="save()">enter</button>
+    <button onclick="clear()">clear</button>
+    <div id="display"></div>
+   <script>
+   /*var json = '{"name": "Madhu", "gender": "Female", "age": 23, "ismarried": false, "marks": { "English": 97, "Tamil": 88, "Science": 78, "Social": 88, "Maths": 100 }}';
+     var result = JSON.parse(json);
+
+   document.write("<br> Name :" + result.name);
+document.write("<br> Marks :" + result.marks.English);
+var headSection =  document.getElementById("head")           
+      var paraSection = document.querySelector("p");
+function user(){
+alert (paraSection.textContent);
+}
+ */
+ 
+    <script>
+        function enter(){
+            const usname=document.getElementById("name").value
+            localStorage.setItem("username",usname)
+            show()
+        }
+        function show(){
+        const name=localStorage.getItem("username")
+        document.getElementById("display").textContent="heloo i am  "  +name}
+    </script>
+</script>
+</body>
+</html>

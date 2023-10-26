@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.0-dist/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+          /* Custom styles */
+          .content {
+            display: none; /* Hide content initially */
+          }
+      
+          @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 1;
+            }
+          }
+        </style>
+      </head>
+     
+<body>
+
+
+ 
+
+
+  <div class="container">
+    <header class="header">
+      <h1>Website Header</h1>
+    </header>
+    <div class="content">
+      <div class="spinner"></div>
+      <div class="body-content">
+        <h2>Content Section</h2>
+        <p>This is the content of the page.</p>
+      </div>
+    </div>
+  </div>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  
+    <div class="container">
+      <header class="header">
+        <h1>Website Header</h1>
+      </header>
+      <div class="content">
+        <div class="d-flex justify-content-center align-items-center vh-100">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+        <div class="body-content fade-in">
+          <h2>Content Section</h2>
+          <p>This is the content of the page.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Wait for the page to load
+      document.addEventListener("DOMContentLoaded", function () {
+        // Simulate a delay (in milliseconds) before stopping the spinner and showing the content
+        const delay = 3000;
+  
+        // Select the spinner and content elements
+        const spinner = document.querySelector(".spinner-border");
+        const content = document.querySelector(".content");
+  
+        // Stop the spinner and show the content after the delay
+        setTimeout(function () {
+          spinner.style.display = "none";
+          content.style.display = "block";
+        }, delay);
+      });
+    </script>
+
+  
+
+  <!--<header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Madhu Viswa</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar 
+
+      <div class="header-social-links" >
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+       
+      </div>
+      
+    </div>
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Kelly Adams</h1>
+        <h2>I'm a professional illustrator from San Francisco</h2>
+        <a href="about.html" class="btn-about">About Me</a>
+      </div>
+    </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kelly</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <div id="preloader"></div>
+  <a href="#" class="cssload-whirlpool d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short">
+    
+  </i></a>-->
+    
+</body>
+</html>

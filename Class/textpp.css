@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-decoration:underline;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 2px 1px rgb(243, 219, 219);
+
+    
+}
+h2{
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+   
+}
+p{
+ text-indent: 70px;
+
+
+ 
+}
+body{
+    background-color: rgb(216, 203, 203);
+    
+}

@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(220, 212, 246);
+    position:relative;
+
+}
+.layout {
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap:10px;
+position:relative;
+padding: 100px;
+justify-content: justify;
+}
+
+.box1{
+    background-color: rgb(251, 248, 248);
+    width:300px;
+    height:300px;
+    padding:20px;
+    border-radius: 35px;
+    text-align:justify;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(196, 188, 188) ;
+    }
+    .img img{
+      width:80px;
+      height:80px;
+      position:absolute;
+      top:5px;
+      left:180px;
+    }
+    .empty{
+      background-color: rgb(255, 208, 0);
+      width:300px;
+      height:20px;
+      position:absolute;
+      top:250px;
+    }
+    .box2{
+     background-color: rgb(251, 248, 248);
+    width:300px;
+    height:300px;
+    padding:20px;
+    border-radius: 35px;
+    text-align:justify;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(196, 188, 188) ;
+    
+      }
+      .image2 img{
+        width:65px;
+        height:65px;
+        position:absolute;
+        top:13px;
+        left:150px;
+        
+      }
+      .empty2{
+        background-color: rgb(81, 51, 115);
+        
+        position:absolute;
+        width:300px;
+      height:20px;
+        top:250px;
+      }
+      .box3{
+        background-color: rgb(251, 248, 248);
+    width:300px;
+    height:300px;
+    padding:20px;
+    border-radius: 35px;
+    text-align:justify;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(196, 188, 188) ;
+      }
+
+
+
+    .image3 img{
+          width:80px;
+          height:60px;
+          position:absolute;
+          top:15px;
+          left:180px;
+          
+        }
+        .empty3{
+          background-color: rgb(51, 115, 57);
+          width:300px;
+          height:20px;
+          position:absolute;
+          top:250px;
+        }

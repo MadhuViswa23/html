@@ -1,0 +1,191 @@
+/*.boxx{
+    display:flex;
+    margin:30px;
+    padding:30px;
+}
+
+
+
+body{
+    background-color: violet ;
+ 
+
+}
+body:hover{
+background-color: chartreuse;
+transition-duration: 3s;
+transition-timing-function: 2s;
+
+}
+
+
+
+.box1{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+ 
+    border-radius:50%;
+    transition-duration: 3s;
+    transition-delay: 1s;
+ 
+    
+    
+}
+.box1:hover{
+  
+background-color: aquamarine;
+width:200px;
+height:200px;
+transform: rotate(45deg);
+}
+.box2{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+ 
+   
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.box2:hover{
+  
+    background-color: aquamarine;
+    width:200px;
+    height:200px;
+    transform: rotate(45deg);
+    }
+.box3{
+        width:100px;
+        height:100px;
+        background-color: blueviolet;
+       margin: 40px;;
+       
+        transition-duration: 3s;
+        transition-delay: 1s;
+    }
+    .box3:hover{
+      
+        background-color: aquamarine;
+        width:200px;
+        height:200px;
+        transform: scale(2,3);
+        }
+        .box4{
+            width:100px;
+            height:100px;
+            background-color: rgb(226, 131, 43);
+           margin: 40px;;
+           
+            transition-duration: 3s;
+            transition-delay: 1s;
+        }
+        .box4:hover{
+          
+            background-color: aquamarine;
+            width:200px;
+            height:200px;
+            transform: matrix(2,3,4,5);
+            }
+            .box5{
+                width:100px;
+                height:100px;
+                background-color: rgb(226, 131, 43);
+               margin: 40px;;
+               
+                transition-duration: 3s;
+                transition-delay: 1s;
+            }
+            .box5:hover{
+              
+                background-color: aquamarine;
+                width:200px;
+                height:200px;
+               transform:perspective(5);
+                }
+.box1{
+    width:100px;
+    height:50px;
+background-color: rgb(46, 0, 252);
+position:relative;
+animation-name:anime;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+@keyframes anime{
+100%{
+    left:20px;
+    width:150px;
+    height:100px;
+}
+90%{
+    left:25px;
+    width:170px;
+    height:150px;
+}
+80%{
+    left:30px;
+    width:190px;
+    height:180px;
+    transform: rotate(15deg);
+
+}
+70%{
+    left:40px;
+    width:190px;
+    height:180px;
+    transform: rotate(35deg);
+}
+60%{
+    left:60px;
+    width:190px;
+    height:180px;
+    transform: rotate(45deg);
+}
+50%{
+    left:80px;
+    width:190px;
+    height:180px;
+    transform: rotate(45deg);
+}
+40%{
+    left:100px;
+    width:190px;
+    height:180px;
+    transform: rotate(75deg);
+}
+30%{
+    left:130px;
+    width:190px;
+    height:180px;
+    transform: rotate(90deg);
+}
+20%{
+    left:160px;
+    bottom:50px;
+    width:190px;
+    height:180px;
+    transform: rotate(120deg);
+}*/
+.box1{
+    background-color: rgb(14, 70, 70);
+    height:100vh;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .box1{
+    background-color: rgb(193, 173, 230);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 860px) {
+  .box1{
+    background-color: rgb(158, 32, 102);
+  }
+}
+@media only screen and (min-width: 860px) and (max-width: 1200px) {
+  .box1{
+    background-color: rgb(87, 107, 15);
+  }
+}

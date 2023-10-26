@@ -1,0 +1,62 @@
+.layout{
+    background-color: aqua;
+}
+.float1{
+    background-color: rgb(201, 114, 0);
+    width: 100%;
+    float: left;
+    height: 40px;
+    border: 2px solid black;
+    margin: 2px 2px 2px 2px;
+}
+
+.float2{
+    background-color: rgb(208, 225, 16);
+    width: 34%;
+    float: left;
+    height: 300px;
+    border: 2px solid black;
+
+    margin: 2px 2px 2px 2px;
+
+}
+.float3{
+    background-color: rgb(70, 220, 36);
+    width: 34%;
+    float: left;
+    height: 300px;
+    border: 2px solid black;
+
+    margin: 2px 2px 2px 2px;
+
+}
+.float4{
+    background-color: rgb(154, 12, 237);
+    width: 29%;
+    float: right;
+    height: 300px;
+    border: 2px solid black;
+    
+    margin: 2px 2px 2px 2px;
+
+}
+.float5{
+    background-color: rgb(156, 151, 238);
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.float6{
+    background-color: rgb(64, 220, 103);
+    width: 50%;
+    float: right;
+    height: 300px;
+}
+
+.float7{
+    background-color: rgb(189, 57, 233);
+    width: 100%;
+    float: left;
+    height: 40px;
+}

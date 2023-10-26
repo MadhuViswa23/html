@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Integer Input and Select Box (Keyboard Event)</title>
+</head>
+<body>
+    <label for="integerInput">Enter Integer:</label>
+    <input type="text" id="integerInput" placeholder="Enter an integer">
+    <select id="selectBox"></select>
+    <script>
+        const integerInput = document.getElementById("integerInput");
+        const selectBox = document.getElementById("selectBox");
+        
+        integerInput.addEventListener("keyup", function(event) {
+           
+            const inputValue = integerInput.value.trim();
+
+         
+            if (/^-?\d+$/.test(inputValue)) {
+                if (event.key === "Enter") {
+                    const enteredValue = parseInt(inputValue);
+                    const option = document.createElement("option");
+                    option.text = enteredValue;
+                    selectBox.add(option);
+                    integerInput.value = '';
+                }
+            } else {
+                alert("Please enter a valid integer.");
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+let txt = "JavaScript is client side scripting Language";
+let pos = txt.indexOf('c');
+console.log(pos);  
+
+
+let txt = "I eat apples the whole day";
+let x = txt.slice(7, 13);
+console.log(x);  
+
+let txt = "Hello World";
+txt = txt.replace("Hello", "Hi");
+console.log(txt);  

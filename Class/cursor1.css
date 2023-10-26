@@ -1,0 +1,36 @@
+.img img:hover{
+    cursor: zoom-in;
+ width:350px;
+ height:450px;
+    color:red;
+    text-align:center;
+    text-decoration: underline;
+    
+}
+.img img{
+    cursor: grab;
+ 
+    color:red;
+    text-align:center;
+    text-decoration: underline;
+    
+}
+
+h1:hover{
+    cursor: text;
+}
+.list {
+    cursor: alias;
+}
+p
+    {
+        cursor:zoom-out;
+     
+       
+    }
+p:hover{
+   cursor: all-scroll;
+   width:350px;
+   height:300px;
+}
+

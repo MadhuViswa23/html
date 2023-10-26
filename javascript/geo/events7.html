@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="intInput" onkeypress="getbtn()" placeholder="Enter the number">
+    <button>submit</button>
+    <select id="selectbox"></select>
+
+
+    <script>
+function getbtn(){
+    var input=document.getElementById("intInput").value
+    var output='<option> select option</option>'
+    for(i=0; i<=input; i++){
+        output+='<option value="'+i+'">'+i+'<option>'
+    }
+    document.getElementById("selectbox").innerHTML=output
+
+}
+
+    </script>
+</html>

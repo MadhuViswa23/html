@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+    <label for="input1">Input 1:</label>
+    <input type="number" id="input1" placeholder="Enter value for Input 1">
+    <br>
+    <label for="input2">Input 2:</label>
+    <input type="number" id="input2" placeholder="Enter value for Input 2">
+    <br>
+    <button type="button" id="calculateButton">Calculate</button>
+    <div>
+        <h2>Results:</h2>
+        <p id="operationResult"></p>
+    </div>
+    <script>
+        const calculateButton = document.getElementById("calculateButton");
+        
+        calculateButton.addEventListener("click", function() {
+            const input1 = parseFloat(document.getElementById("input1").value);
+            const input2 = parseFloat(document.getElementById("input2").value);
+            const resultOutput = document.getElementById("operationResult");
+            
+            const operations = ["add", "subtract", "multiply", "divide"];
+            let selectedOperation = prompt("Enter operation (add, subtract, multiply, divide):");
+            
+            if (operations.includes(selectedOperation)) {
+                let result;
+                switch (selectedOperation) {
+                    case "add":
+                        result = input1 + input2;
+                        break;
+                    case "subtract":
+                        result = input1 - input2;
+                        break;
+                    case "multiply":
+                        result = input1 * input2;
+                        break;
+                    case "divide":
+                        result = input1 / input2;
+                        break;
+                }
+                
+                resultOutput.innerHTML = `Result of ${selectedOperation} operation: ${result}`;
+            } else {
+                resultOutput.innerHTML = "Invalid operation selected.";
+            }
+        });
+    </script>
+</body>
+</html>

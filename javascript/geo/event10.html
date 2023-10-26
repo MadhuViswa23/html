@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Date Manipulation</title>
+</head>
+<body>
+  <label for="inputDate">Enter a date: </label>
+  <input type="date" id="inputDate">
+  <button onclick="calculate()">Calculate</button>
+
+  <h2>Calculated Dates</h2>
+  <p>+5 days: <input type="text" id="plus" readonly></p>
+  <p>-5 days: <input type="text" id="minus" readonly></p>
+
+  <script>
+    function calculate() {
+      var inputDate = new Date(document.getElementById("inputDate").value);
+      
+      var plus1= new Date(inputDate);
+      plus1.setDate(inputDate.getDate() + 5);
+      document.getElementById("plus").value = plus1.toDateString();
+
+      var minus2 = new Date(inputDate);
+      minus2.setDate(inputDate.getDate() - 5);
+      document.getElementById("minus").value = minus2.toDateString();
+    }
+  </script>
+</body>
+</html>

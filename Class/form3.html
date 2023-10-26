@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+<style>
+    
+     body #head{
+        
+        font-size: 13px;
+        text-align: justify;
+        align-items: center;
+        margin:20px;
+        padding:30px;
+        top:-10%;
+      position: fixed;
+      left:35%;
+     
+      
+    
+        
+    }
+    .hobb{
+        position: fixed;
+    bottom:24%;   
+       
+    }
+    .quali{
+        position: absolute;
+        bottom:-16%;
+        left:  30%;
+        font-size: 10px;
+    }
+   
+    .sub{
+        position:absolute;
+        bottom:7px;
+        left:35%;
+        bottom:-19.5%;
+        text-align: center;
+    
+    }
+    .app{
+        position:absolute;
+    bottom:-18%;
+    }
+    
+</style>
+</head>
+
+<body style="background-color: blueviolet;"  >
+
+    <div id="head">
+        <h1>Student Registration Form</h1>
+            <form>
+                <label>First Name:</label>
+                <input type="text" id="firstname" name="firstname" required min="30"  pattern="[a-zA-Z\s]+" >(max30charactersa-zandA-Z)<br><br>
+        
+                <label>Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required min="30" pattern="[a-zA-Z\s]+">(max30charactersa-zandA-Z)<br><br>
+        
+                <label>Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+        
+                <label>Email ID:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label>Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">(10 digit number)<br><br>
+        
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label>Female</label>
+        <br>
+        
+                <label>Address:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+        
+                <label>City:</label>
+                <input type="text" id="city" name="city" required min="30">(max30charactersa-zandA-Z)<br><br>
+                
+                <label>Country:</label>
+                <input type="text" id="country" name="country" required min="30"><br><br>
+                <label>Pincode:</label>
+                <input type="text" id="pincode" name="pincode" required><br><br>
+        
+                <label>State:</label>
+                <input type="text" id="state" name="state" required><br><br>
+        
+                <label>Country:</label>
+                <input type="text" id="country" name="country" required><br><br>
+        
+                <div class="hobb">
+                    <label>Hobbies:</label>
+                <input type="checkbox" id="Drawing" name="hobbies" value="Drawing">
+                <label>Dancing</label>
+                <input type="checkbox" id="Singing" name="hobbies" value="Singing">
+                <label>Singing</label>
+                <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+                <label>Dancing</label>
+                <input type="checkbox" id="sketching" name="hobbies" value="Sketching">
+                
+                <label>Sketching</label>
+                
+                <input type="checkbox" id="other" name="other" value="other">
+                <label>other</label>
+    
+                </div>
+        
+        
+                <label for="qualification">Qualification:</label>
+               <div class="quali">
+                
+               
+                <table border="">
+                    <label for="qualification">Qualification:</label>
+                    <tr>
+                        <th>SI.No.Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+        
+        
+        
+        
+                    </tr>
+                    <tr>
+                        <td>1. ClassX</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+        
+        
+                    </tr>
+                    <tr>
+                        <td>2. Class XII</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+        
+                    </tr>
+                    <tr>
+                        <td>3. Graduation</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+        
+                    </tr>
+                    <tr>
+                        <td>4. Masters</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+                        <td style="background-color: white;">&nbsp;</td>
+        
+                    </tr>
+                </table>
+                <br><br>
+                
+                   
+               </div>
+               <div class="app" >
+                <label>Courses Applied for: &nbsp;&nbsp;</label>
+                <input type="radio" id="bca" name="course" value="BCA">
+                <label for="bca">BCA</label>
+                
+                <input type="radio" id="bcom" name="course" value="BCom">
+                <label for="bcom">BCom</label>
+                
+                <input type="radio" id="bsc" name="course" value="BSc">
+                <label for="bsc">BSc</label>
+                
+                <input type="radio" id="ba" name="course" value="BA">
+                <label for="ba">BA</label><br><br>
+                
+              </div>
+              
+                <div class="sub">
+                   <input type="submit" value="Submit"><input type="reset" value="reset">
+                </div>
+            </form>
+      
+       </div>
+    
+   
+</body>
+
+</html>

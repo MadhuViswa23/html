@@ -1,0 +1,108 @@
+.logo img{
+    width:200px;
+    height:100px;
+}
+.header{
+    background-color: black;
+    color:white;
+    z-index: 1;
+  
+ 
+
+}
+.logo{
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon{
+  margin:15px;
+  z-index: 2;
+
+}
+.icon2{
+    margin:15px;
+  }
+  .icon3{
+    margin:15px;
+  }
+  .nav a{
+text-decoration: none;
+color:black;
+z-index:3;
+
+
+  }
+  .nav li {
+    display:flex;
+   
+  }
+  .navv {
+    display: flex;
+   
+  }
+  .navv li{
+    margin:5px;
+    padding:10px;
+   
+  }
+  .nav{
+    display: flex;
+  justify-content: space-around;
+  
+  }
+  .icons i{
+    margin:17px;
+    padding:8px;
+  }
+  .image img{
+    width:100%;
+    height:100vh;
+  }
+  .img{
+    font-weight: 40px;
+    color:white;
+   text-align: center;
+
+}
+
+  .content{
+    display:flex;
+
+  }
+  .content1 i{
+background-color: aliceblue;
+
+padding:30px;
+  }
+.content2 i{
+    background-color: rgb(107, 175, 235);
+    
+    padding:30px;
+      }
+.content3 i{
+        background-color: rgb(224, 62, 176);
+        
+        padding:30px;
+          }
+.content4 i{
+    background-color: rgb(88, 201, 32);
+        
+    padding:30px;
+}
+  .content1{
+    background-color: yellow;
+    padding:40px;
+  }
+  .content2{
+  
+    padding:40px;
+  }
+  .content3{
+    
+    padding:40px;
+  }
+  .content4{
+    
+    padding:40px;
+  }

@@ -1,0 +1,12 @@
+.box{
+    background-image: conic-gradient(rgb(0, 110, 255), rgb(0, 255, 106), rgb(219, 37, 122));
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+   
+    color: rgb(15, 1, 1);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }

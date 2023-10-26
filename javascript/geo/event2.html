@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="button">hello button</button>
+    <script>
+       function handlerbutton(){
+        var userInput =  prompt("Enter UserName");
+        var number = parseInt(userInput);
+       
+        
+        switch(number){
+            case 1:
+                alert("1");
+                break;
+                case 2:
+                alert("2");
+                break;
+                case 3:
+                alert("3");
+                break;
+                default:
+               alert("4");
+               break;
+        }
+       }
+        button.addEventListener("click", handlerbutton);
+    </script>
+</body>
+</html>

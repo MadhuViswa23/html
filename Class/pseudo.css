@@ -1,0 +1,29 @@
+div p:first-child{
+    font-size: 25px;
+    }
+    
+div :nth-child(odd){
+    background-color: rgb(224, 224, 18);
+    color:purple;
+}
+
+a:link{
+    color: purple;
+}
+
+
+a:visited{
+    color:rgb(48, 33, 5);
+}
+
+a:hover{
+background-color: blue;
+}
+
+
+a:active{
+    color: turquoise;
+}
+a:focus{
+    background-color: white;
+}

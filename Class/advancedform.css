@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to right,rgb(69, 115, 241), rgb(207, 46, 207));
+max-height: 1000px;
+}
+.content{
+    width:400px;
+    height:600px;
+    margin:30px;
+    position:relative;
+    left:450px;
+    top:8px;
+    background-color: white;
+    border-radius: 20px;
+}
+.name{
+    padding:70px;
+    
+   
+}
+.text{
+    width: 280px;
+    border:none;
+   font-size: 15px;
+   
+    
+    border-bottom: 2px solid black;
+}
+.forget{
+    padding:60px;
+  
+  position:absolute;
+   right:10px;
+   top:200px;
+}
+.btn{
+    width:280px;
+    height:50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(69, 115, 241), rgb(207, 46, 207));
+    
+}
+.icons1 img{
+    margin:20px;
+    width:30px;
+    height:30px;
+}

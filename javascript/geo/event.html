@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Click Example</title>
+</head>
+<body>
+    <button type="button" id="button1">hello button</button>
+    <button type="button2" id="button2">Click here</button>
+    <script>
+        const buttonhello = document.getElementById("button1");
+       
+        function handlerbutton() {
+            alert("Hello JavaScript");
+         
+        }
+      buttonhello.addEventListener("click", handlerbutton);
+
+
+      const button2 = document.getElementById("button2");
+        function handlerbutton2() {
+        var userInput = prompt("Enter  number");
+        var number = parseInt(userInput);
+        if (userInput !== null && userInput!== ""){
+            alert( "u entered" +  userInput);
+        }
+        }
+        button2.addEventListener("click", handlerbutton2);
+    </script>
+</body>
+</html>

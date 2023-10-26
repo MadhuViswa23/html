@@ -1,0 +1,23 @@
+
+
+
+div ::first-letter{
+    font-size: 30px;
+    
+}
+div::first-line{
+   color:rgb(41, 5, 5);
+}
+p::before{
+   content:url('https://em-content.zobj.net/thumbs/160/whatsapp/238/butterfly_1f98b.png');
+}
+p::after{
+  content:"@";
+}
+::marker{
+    color: rgb(16, 123, 194);
+    font-size:30px;
+}
+p::selection{
+    background-color: brown;
+}

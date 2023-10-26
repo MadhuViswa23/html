@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Comparison</title>
+</head>
+<body>
+    <label for="input1">Input 1:</label>
+    <input type="text" id="input1" placeholder="Enter value for Input 1">
+    <br>
+    <label for="input2">Input 2:</label>
+    <input type="text" id="input2" placeholder="Enter value for Input 2">
+    <br>
+    <button type="button" id="validateButton">Compare</button>
+    <script>
+        const validateButton = document.getElementById("validateButton");
+        
+        validateButton.addEventListener("click", function() {
+            const input1 = document.getElementById("input1").value;
+            const input2 = document.getElementById("input2").value;
+            
+            if (input1 === '' || input2 === '') {
+                alert("One of your data is empty, kindly fill it and try again");
+            } else if(input1 !==""){
+                alert("both input were different values");
+            }
+            else{
+                alert("Both inputs have values.");
+            }
+        });
+    </script>
+</body>
+</html>

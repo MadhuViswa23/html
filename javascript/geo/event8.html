@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="inputVl" placeholder="Enter an integer">
+    <button id="newButton">Create Select Box</button>
+    <div id="selectBoxContainer"></div>
+
+    <script>
+        var boxCounter = 1; // Counter for assigning unique IDs to select boxes
+
+        document.getElementById("newButton").addEventListener("click", function() {
+            var input = document.getElementById("inputVl").value;
+            var input1 = parseInt(input);
+
+            if (!isNaN(input1) && Number.isInteger(input1)) {
+                var selectBoxContainer = document.getElementById("selectBoxContainer");
+
+                var select = document.createElement("select");
+                select.id = "Select" + boxCounter; // Assign a unique ID to the select box
+                boxCounter++;
+
+                selectBoxContainer.appendChild(select);
+
+                for (var i = 1; i <= input1; i++) {
+                    var option = document.createElement("option");
+                    option.text = i;
+                    select.appendChild(option);
+                }
+
+                document.getElementById("inputVl").value = "";
+                
+            } else {
+                alert("It is not a valid Integer");
+            }
+        });
+    </script>
+</body>
+</html>
+

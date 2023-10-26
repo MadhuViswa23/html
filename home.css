@@ -1,0 +1,226 @@
+body{
+    margin: 10px;
+    width:1290px;
+    max-height: 1000px;
+    background-image: url('./light-blue-background-used-for-design-work-and-wallpaper-with-a-pattern-free-photo.jpg');
+    background-size:cover;
+    background-repeat:none;
+    /* image opacity:.30; */
+   
+}
+   
+
+
+
+
+ .homelogo .homelogoimg img{
+    
+    border-radius: 45%;
+    width:100px;
+    height:100px;
+    
+    margin-left:50px;
+}
+.header{
+    
+    background-color:  rgb(138, 170, 231);
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.name1 .heading1{
+    
+color:#580958;
+
+font-size:29px;
+margin-left:100px;
+text-shadow: 2px 3px 4px #580958;
+
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+ .pages ul li{
+    list-style: none;
+    background-color: rgb(248, 122, 238); 
+    color:rgb(98, 13, 109);
+    padding: 20px 30px 20px 30px;
+   
+   
+ }
+ .pages ul li:hover{
+    background-color:  rgb(138, 170, 231);
+    color: aliceblue;
+ }
+ .pages ul a{
+    text-decoration: none;
+ }
+ .pages ul{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    margin:0;
+    
+ }
+ 
+ .cont_img img{
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding: 40px;
+    
+
+ } 
+ .marquee{
+    font-size: 30px;
+ } 
+
+
+ 
+ .box{
+    display: flex;
+    justify-content: center;
+     /* padding: 20px;  */
+     box-sizing: border-box;
+ }
+ 
+.box1{
+    margin:10px;
+    padding:20px;
+    width:225px;
+    text-align: center;
+    align-items: center;
+   background-color:rgb(248, 122, 238);
+   border-radius:20px;
+   box-sizing: content-box;
+
+}
+.box2{
+    margin:10px;
+    padding:20px;
+    width:225px;
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center;
+   background-color: rgb(138, 170, 231);
+   border-radius:20px;
+
+}
+.box3{
+    margin:10px;
+    padding:20px;
+    width:225px;
+    box-sizing:content-box;
+    text-align: center;
+    align-items: center;
+   background-color:rgb(248, 122, 238);
+   border-radius:20px;
+
+}
+.section3{
+    display: flex;
+    justify-content: center;
+     /* padding: 20px;  */
+     box-sizing: border-box;
+}
+.box4{
+margin:10px;
+    padding:20px;
+    width:225px;
+    box-sizing:content-box;
+    text-align: center;
+    align-items: center;
+   background-color:rgb(248, 122, 238);
+   border-radius:20px;
+}
+.box5{
+    margin:10px;
+        padding:20px;
+        width:225px;
+        box-sizing:content-box;
+        text-align: center;
+        align-items: center;
+       background-color: rgb(138, 170, 231);
+       border-radius:20px;
+    }
+    .box6{
+        margin:10px;
+            padding:20px;
+            width:225px;
+            box-sizing:content-box;
+            text-align: center;
+            align-items: center;
+           background-color:rgb(248, 122, 238);
+           border-radius:20px;
+           
+        }
+        .box1 .a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+        .box2 .a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+        .box3.a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+        .box4 .a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+        .box5 .a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+        .box6 .a{
+         text-decoration: none;
+         background-color: white;
+         color:black;
+         border-radius: 40px;
+         maragin:5px;
+         padding:5px;
+         
+        }
+
+
+.foot_section{
+    display: flex;
+    justify-content: space-between;
+    background-color:cornflowerblue;
+    color:aliceblue;
+} 
